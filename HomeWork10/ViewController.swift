@@ -10,5 +10,11 @@ class ViewController: UIViewController {
     }
         //delete all unnecessary comments
 
+        setupView()
+    }
+    
+    func setupView(){
+        view.backgroundColor = .green
+    }
 }
 
